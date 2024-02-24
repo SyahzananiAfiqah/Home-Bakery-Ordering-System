@@ -1,0 +1,361 @@
+/* CSS for All */
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+.img-responsive{
+    width: 100%;
+}
+.img-curve{
+    border-radius: 15px;
+}
+
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-white{
+    color: white;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(243, 167, 75);
+}
+
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.btn-primary{
+    background-color: #f6f5f5;
+    color: rgb(2, 2, 2);
+    cursor: pointer;
+}
+.btn-primary:hover{
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+}
+h2{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+h3{
+    font-size: 1.5rem;
+}
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    bottom: 1rem;
+    left: 40%;
+}
+fieldset{
+    border: 1px solid white;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+
+
+/* CSSS for navbar section */
+
+.navbar{
+    background-color:black;
+}
+
+.logo{
+    width: 20%;
+    float: left;
+}
+.menu{
+    line-height: 80px;
+}
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 2%;
+    font-weight: bold;
+}
+
+
+/* CSS for Food SEarch Section */
+
+.cake-search{
+    background-image: url(../images/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 4% 0;
+    color: #ffffff;
+}
+
+.cake-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 0.7rem;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* CSS for Categories */
+.categories{
+    padding: 4% 0;
+    background-color: black;
+}
+
+.box-3{
+    width: 20%;
+    float: left;
+    margin: 2%;
+}
+
+
+/* CSS for Food Menu */
+.cake-menu{
+    background-color:black;
+    padding: 4% 0;
+}
+.cake-menu-box{
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.cake-menu-img{
+    width: 20%;
+    float: left;
+}
+
+.cake-menu-desc{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+
+.cake-price{
+    font-size: 0.9rem;
+    margin: 2% 0;
+}
+.cake-detail{
+    font-size: 1rem;
+    color: #747d8c;
+}
+
+
+/* CSS for Social */
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+
+/* for Order Section */
+.order{
+    width: 50%;
+    margin: 0 auto;
+}
+.input-responsive{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.order-label{
+    margin-bottom: 1%; 
+    font-weight: bold;
+}
+
+
+
+/* CSS for Mobile Size or Smaller Screen */
+
+@media only screen and (max-width:768px){
+    .logo{
+        width: 60%;
+        float: none;
+        margin: 1% auto;
+    }
+
+    .menu ul{
+        text-align: center;
+    }
+
+    .cake-search input[type="search"]{
+        width: 60%;
+        padding: 3%;
+        margin-bottom: 3%;
+    }
+
+    .btn{
+        width: 40%;
+        padding: 2%;
+        font-size: 0.8rem;
+    }
+
+    .cake-search{
+        padding: 10% 0;
+    }
+
+    .categories{
+        padding: 20% 0;
+    }
+    h2{
+        margin-bottom: 10%;
+    }
+    .box-3{
+        width: 40%;
+        margin: 10% auto;
+        margin-inline: 5%;
+    }
+    h3{
+        font-size: 1rem;
+    }
+
+    .float-container{
+        position:sticky;
+    }
+
+    .float-text{
+        bottom: 1rem;
+    }
+
+    .cake-menu-box{
+        width: 90%;
+        padding: 5%;
+        margin-bottom: 50%;
+    }
+
+    .cake-menu-box{
+        margin: 1%;
+        float: left;
+        background-color: white;
+        border-radius: 15px;
+    }
+    
+    .cake-menu-img{
+        width: 20%;
+        float: left;
+    }
+    
+    .cake-menu-desc{
+        width: 60%;
+        float: left;
+        margin-left: 8%;
+    }
+    
+    .cake-price{
+        font-size: 0.8rem;
+        margin: 2% 0;
+    }
+    .cake-detail{
+        font-size: 1rem;
+        color: #747d8c;
+    }
+
+    .social{
+        padding: 5% 0;
+    }
+    .order{
+        width: 100%;
+    }
+}
+
+
+.cart-table {
+    margin-top: 20px;
+  }
+  
+  .cart-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .cart-table th,
+  .cart-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ff7f7f;
+  }
+  
+  .cart-table th {
+    background-color: #d94076;
+    font-weight: bold;
+  }
+  
+  .cart-table td.text-right {
+    text-align: right;
+  }
+  
+  .empty-cart {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .empty-cart a {
+    color: #e86b6b;
+    text-decoration: none;
+  }
+  
+
+  .btn-delete {
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .btn-delete:hover {
+    background-color: #ff3333;
+  }
+
+  .best-seller-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #ffbf00;
+    color: #ffffff;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 16px;
+}
+
+  
+
+  
